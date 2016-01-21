@@ -20,7 +20,10 @@ public class CPD4414Aggignment1Patel {
     }
       public static String stringPower(String str, int x)
         {
-            return null;
+           if (str==""){
+               return "";
+           }
+           else return str;
         }
     
 }
