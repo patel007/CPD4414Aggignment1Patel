@@ -16,6 +16,11 @@ public class CPD4414Aggignment1Patel {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+      
     }
+      public static String stringPower(String str, int x)
+        {
+            return null;
+        }
     
 }
