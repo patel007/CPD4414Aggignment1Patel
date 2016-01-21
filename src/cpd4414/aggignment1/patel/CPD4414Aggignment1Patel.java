@@ -23,6 +23,19 @@ public class CPD4414Aggignment1Patel {
            if (str==""){
                return "";
            }
+           else if(x==1)
+           {
+               return str;
+           }
+           else if(x==2)
+           {
+               for(int i = 0; i< x-1; i++){
+                   str+=str;
+               }
+               
+               System.out.println(str);
+               return str;
+           }
            else return str;
         }
     

@@ -52,6 +52,7 @@ public class CPD4414Aggignment1PatelTest {
         String result = CPD4414Aggignment1Patel.stringPower(str, x);
         assertEquals(expResult, result);
     }
+    @Test
     public void testLessThanOneShouldReturnNull()
     {        
        System.out.println("testLessThanOneShouldReturnNull");
@@ -61,12 +62,23 @@ public class CPD4414Aggignment1PatelTest {
         String result = CPD4414Aggignment1Patel.stringPower(str, x);
         assertEquals(expResult, result);
     }
+    @Test
     public void testStringAndOneShouldReturnString()
     {        
        System.out.println("testStringAndOneShouldReturnString");
         String str = "abcd";
         int x = 1;
-        String expResult = "";
+        String expResult = "abcd";
+        String result = CPD4414Aggignment1Patel.stringPower(str, x);
+        assertEquals(expResult, result);
+    }
+    @Test
+     public void testStringAndTwoShouldReturnStringDoubled()
+    {        
+       System.out.println("testStringAndTwoShouldReturnStringDoubled.");
+        String str = "bob";
+        int x = 2;
+        String expResult = "bobbob";
         String result = CPD4414Aggignment1Patel.stringPower(str, x);
         assertEquals(expResult, result);
     }
